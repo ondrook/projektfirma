@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Šoféri</string>
   </property>
-  <widget class="QTableView" name="tabulka_jazdy">
+  <widget class="QTableView" name="tabulka_soferi">
    <property name="geometry">
     <rect>
      <x>190</x>

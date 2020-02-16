@@ -13,7 +13,7 @@
   <property name="windowTitle">
    <string>Sumár</string>
   </property>
-  <widget class="QTableView" name="tabulka_jazdy">
+  <widget class="QTableView" name="tabulka_sumar">
    <property name="geometry">
     <rect>
      <x>160</x>
@@ -42,7 +42,7 @@
     <item>
      <widget class="QLabel" name="label_2">
       <property name="text">
-       <string>Mesiac</string>
+       <string>&lt;html&gt;&lt;head/&gt;&lt;body&gt;&lt;p&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;Mesiac&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
       </property>
      </widget>
     </item>
@@ -113,6 +113,20 @@
         <string/>
        </property>
       </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QPushButton" name="vypis_sumar">
+      <property name="text">
+       <string>Vypíš  sumár</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="vypis_sumaru">
+      <property name="text">
+       <string/>
+      </property>
      </widget>
     </item>
    </layout>
