@@ -14,6 +14,9 @@
    <string>Kamiony</string>
   </property>
   <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="1">
+    <widget class="QTableView" name="tabulka_jazdy"/>
+   </item>
    <item row="0" column="0">
     <widget class="QFrame" name="frame">
      <property name="frameShape">
@@ -66,17 +69,17 @@
         </property>
         <item>
          <property name="text">
-          <string>Kamion1</string>
+          <string>k1</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string>Kamion2</string>
+          <string>k2</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string>Kamion3</string>
+          <string>k3</string>
          </property>
         </item>
         <item>
@@ -117,9 +120,6 @@
       </item>
      </layout>
     </widget>
-   </item>
-   <item row="0" column="1">
-    <widget class="QTableView" name="tabulka_jazdy"/>
    </item>
   </layout>
  </widget>

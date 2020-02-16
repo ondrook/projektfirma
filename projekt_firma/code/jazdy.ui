@@ -70,17 +70,17 @@
        <widget class="QComboBox" name="kamion">
         <item>
          <property name="text">
-          <string>Kamion1</string>
+          <string>k1</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string>Kamion2</string>
+          <string>k2</string>
          </property>
         </item>
         <item>
          <property name="text">
-          <string>Kamion3</string>
+          <string>k3</string>
          </property>
         </item>
         <item>

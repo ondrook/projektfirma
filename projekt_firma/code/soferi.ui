@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Form</class>
+ <widget class="QWidget" name="Form">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>791</width>
+    <height>403</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tabulka_jazdy">
+   <property name="geometry">
+    <rect>
+     <x>190</x>
+     <y>20</y>
+     <width>588</width>
+     <height>370</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>22</x>
+     <y>20</y>
+     <width>161</width>
+     <height>370</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>ID Sofer</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QSpinBox" name="id_sofer"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_7">
+      <property name="text">
+       <string>Typ</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="typ_sofer">
+      <item>
+       <property name="text">
+        <string>šofér</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>dopravca</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Kamion</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="kamion">
+      <item>
+       <property name="text">
+        <string>k1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>k2</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>k3</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ext1</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Ext2</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_5">
+      <property name="text">
+       <string>Meno</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="meno_sofer"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Mobil</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="mobil_sofera"/>
+    </item>
+    <item>
+     <widget class="QPushButton" name="pridat_soferaB">
+      <property name="text">
+       <string>Pridať sofera</string>
+      </property>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

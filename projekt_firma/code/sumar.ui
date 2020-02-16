@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>sumarW</class>
+ <widget class="QWidget" name="sumarW">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>757</width>
+    <height>385</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Sumár</string>
+  </property>
+  <widget class="QTableView" name="tabulka_jazdy">
+   <property name="geometry">
+    <rect>
+     <x>160</x>
+     <y>10</y>
+     <width>588</width>
+     <height>370</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QFrame" name="frame">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>20</y>
+     <width>161</width>
+     <height>370</height>
+    </rect>
+   </property>
+   <property name="frameShape">
+    <enum>QFrame::StyledPanel</enum>
+   </property>
+   <property name="frameShadow">
+    <enum>QFrame::Raised</enum>
+   </property>
+   <layout class="QVBoxLayout" name="verticalLayout">
+    <item>
+     <widget class="QLabel" name="label_3">
+      <property name="text">
+       <string>Typ</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="typ_polozky">
+      <item>
+       <property name="text">
+        <string>Tankovanie</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mýto</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Mzda</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Zisk</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Oprava</string>
+       </property>
+      </item>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label">
+      <property name="text">
+       <string>Dátum</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="datum_polozky"/>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_9">
+      <property name="text">
+       <string>Suma</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLineEdit" name="suma_poloziek">
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QLabel" name="label_2">
+      <property name="text">
+       <string>Mesiac</string>
+      </property>
+     </widget>
+    </item>
+    <item>
+     <widget class="QComboBox" name="mesiac">
+      <item>
+       <property name="text">
+        <string>Január</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Február</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Marec</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Apríl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Máj</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Jún</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Júl</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>August</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>September</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Október</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>November</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>December</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string/>
+       </property>
+      </item>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
