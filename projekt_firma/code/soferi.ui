@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <ui version="4.0">
- <class>Form</class>
- <widget class="QWidget" name="Form">
+ <class>soferiW</class>
+ <widget class="QWidget" name="soferiW">
   <property name="geometry">
    <rect>
     <x>0</x>
@@ -11,7 +11,7 @@
    </rect>
   </property>
   <property name="windowTitle">
-   <string>Form</string>
+   <string>Šoféri</string>
   </property>
   <widget class="QTableView" name="tabulka_jazdy">
    <property name="geometry">
@@ -42,7 +42,7 @@
     <item>
      <widget class="QLabel" name="label_2">
       <property name="text">
-       <string>ID Sofer</string>
+       <string>ID Šofér</string>
       </property>
      </widget>
     </item>
@@ -73,7 +73,7 @@
     <item>
      <widget class="QLabel" name="label_3">
       <property name="text">
-       <string>Kamion</string>
+       <string>Kamión</string>
       </property>
      </widget>
     </item>
@@ -129,7 +129,7 @@
     <item>
      <widget class="QPushButton" name="pridat_soferaB">
       <property name="text">
-       <string>Pridať sofera</string>
+       <string>Pridať šoféra</string>
       </property>
      </widget>
     </item>

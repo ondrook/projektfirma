@@ -36,33 +36,17 @@
       <item>
        <widget class="QLabel" name="label_2">
         <property name="text">
-         <string>Vodic</string>
+         <string>Vodič</string>
         </property>
        </widget>
       </item>
       <item>
-       <widget class="QComboBox" name="vodic">
-        <item>
-         <property name="text">
-          <string>Janko Hrasko</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Jozko Makovic</string>
-         </property>
-        </item>
-        <item>
-         <property name="text">
-          <string>Petra Ladenska</string>
-         </property>
-        </item>
-       </widget>
+       <widget class="QComboBox" name="vodic"/>
       </item>
       <item>
        <widget class="QLabel" name="label">
         <property name="text">
-         <string>Kamion</string>
+         <string>Kamión</string>
         </property>
        </widget>
       </item>
@@ -128,7 +112,7 @@
       <item>
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>Vzdialenost(km)</string>
+         <string>Vzdialenosť(km)</string>
         </property>
        </widget>
       </item>
@@ -156,7 +140,7 @@
       <item>
        <widget class="QPushButton" name="pridat_jazduB">
         <property name="text">
-         <string>Pridat Jazdu</string>
+         <string>Pridať Jazdu</string>
         </property>
        </widget>
       </item>

@@ -36,7 +36,7 @@
       <item>
        <widget class="QLabel" name="label_7">
         <property name="text">
-         <string>ID Opravar</string>
+         <string>ID Opravár</string>
         </property>
        </widget>
       </item>
@@ -60,7 +60,7 @@
       <item>
        <widget class="QLabel" name="label_3">
         <property name="text">
-         <string>Kamion</string>
+         <string>Kamión</string>
         </property>
        </widget>
       </item>

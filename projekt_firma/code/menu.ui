@@ -14,7 +14,7 @@
    <enum>Qt::NoFocus</enum>
   </property>
   <property name="windowTitle">
-   <string>Manazer Objednavok</string>
+   <string>Manažér Objednávok</string>
   </property>
   <widget class="QWidget" name="centralwidget">
    <layout class="QGridLayout" name="gridLayout">
@@ -45,14 +45,14 @@
        <item>
         <widget class="QPushButton" name="jazdy_sumarB">
          <property name="text">
-          <string>Jazdy Naklady</string>
+          <string>Jazdy Náklady</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="kamionyB">
          <property name="text">
-          <string>Kamiony</string>
+          <string>Kamióny</string>
          </property>
         </widget>
        </item>
@@ -80,14 +80,14 @@
        <item>
         <widget class="QPushButton" name="soferiB">
          <property name="text">
-          <string>Soferi</string>
+          <string>Šoféri</string>
          </property>
         </widget>
        </item>
        <item>
         <widget class="QPushButton" name="sumarB">
          <property name="text">
-          <string>Sumar</string>
+          <string>Sumár</string>
          </property>
         </widget>
        </item>
